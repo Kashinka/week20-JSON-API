@@ -1,6 +1,10 @@
 function infoSuperman() {
 
-    document.getElementById('result').innerHTML = (`Инфо о супермэне`);
+    document.getElementById('result').innerHTML = JSON.stringify({
+        "title": "Супермэн",
+        "from": "Криптон",
+        "power": "Полёты, физическая сила, интеллект, рентген"
+    });
 
 }
 
