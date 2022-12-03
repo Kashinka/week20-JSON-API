@@ -10,7 +10,7 @@ function infoSuperman() {
     `<div>Имя:${superman.name}</div>
      <div>Откуда: ${superman.from}</div>
      <div>Сила: ${superman.power}</div>
-     <img width="100" height="100" src="./assets/super.jfif">`
+     <img width="100" height="100" src="./assets/images/super.jfif">`
 
 }
 
@@ -25,7 +25,8 @@ function infoSpiderman() {
     document.getElementById('result').innerHTML = 
     `<div>Имя:${spiderman.name}</div>
      <div>Откуда: ${spiderman.from}</div>
-     <div>Сила: ${spiderman.power}</div>`
+     <div>Сила: ${spiderman.power}</div>
+     <img width="100" height="100" src="./assets/images/spider.jfif">`
     
 }
 
@@ -40,7 +41,8 @@ function infoBatman() {
     document.getElementById('result').innerHTML = 
     `<div>Имя:${batman.name}</div>
      <div>Откуда: ${batman.from}</div>
-     <div>Сила: ${batman.power}</div>`
+     <div>Сила: ${batman.power}</div>
+     <img width="100" height="100" src="./assets/images/batman.jpg">`
     
 }
 
@@ -55,6 +57,7 @@ function infoHulk() {
     document.getElementById('result').innerHTML = 
     `<div>Имя:${hulk.name}</div>
      <div>Откуда: ${hulk.from}</div>
-     <div>Сила: ${hulk.power}</div>`
+     <div>Сила: ${hulk.power}</div>
+     <img width="100" height="100" src="./assets/images/hulk.webp">`
 
 }
