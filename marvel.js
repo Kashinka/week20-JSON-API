@@ -1,10 +1,25 @@
-function infoSuperman() {
+/*function infoSuperman() {
 
     document.getElementById('result').innerHTML = JSON.stringify({
         "name": "Кларк Кент",
         "from": "Криптон",
         "power": "Полёты, физическая сила, интеллект, рентген"
     });
+
+}*/
+
+function infoSuperman() {
+
+    const superman = JSON.parse(`{
+        "name": "Кларк Кент",
+        "from": "Криптон",
+        "power": "Полёты, физическая сила, интеллект, рентген"
+    }`);
+
+    document.getElementById('result').innerHTML = 
+    `<div>Имя:${superman.name}</div>
+     <div>Откуда: ${superman.from}</div>
+     <div>Сила: ${superman.power}</div>`
 
 }
 
