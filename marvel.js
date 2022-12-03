@@ -15,30 +15,45 @@ function infoSuperman() {
 
 function infoSpiderman() {
 
-    document.getElementById('result').innerHTML = JSON.stringify({
+    const spiderman = JSON.parse(`{
         "name": "Питер",
         "from": "Нью-Йорк",
         "power": "Ночное видение, сенсорные способности, регенерация, паутина, интеллект"
-    });
+    }`);
+
+    document.getElementById('result').innerHTML = 
+    `<div>Имя:${spiderman.name}</div>
+     <div>Откуда: ${spiderman.from}</div>
+     <div>Сила: ${spiderman.power}</div>`
     
 }
 
 function infoBatman() {
 
-    document.getElementById('result').innerHTML = JSON.stringify({
+    const batman = JSON.parse(`{
         "name": "Брюс Уэйн",
         "from": "Готэм",
         "power": "Физическая сила, ловкость, технологии"
-    });
+    }`);
+
+    document.getElementById('result').innerHTML = 
+    `<div>Имя:${batman.name}</div>
+     <div>Откуда: ${batman.from}</div>
+     <div>Сила: ${batman.power}</div>`
     
 }
 
 function infoHulk() {
 
-    document.getElementById('result').innerHTML = JSON.stringify({
+    const hulk = JSON.parse(`{
         "name": "Рооберт Брюс Бэннер",
         "from": "Военный бункер",
         "power": "Физическая сила"
-    });
+    }`);
     
+    document.getElementById('result').innerHTML = 
+    `<div>Имя:${hulk.name}</div>
+     <div>Откуда: ${hulk.from}</div>
+     <div>Сила: ${hulk.power}</div>`
+
 }
