@@ -1,13 +1,3 @@
-/*function infoSuperman() {
-
-    document.getElementById('result').innerHTML = JSON.stringify({
-        "name": "Кларк Кент",
-        "from": "Криптон",
-        "power": "Полёты, физическая сила, интеллект, рентген"
-    });
-
-}*/
-
 function infoSuperman() {
 
     const superman = JSON.parse(`{
