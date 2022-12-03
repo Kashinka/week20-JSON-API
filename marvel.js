@@ -9,7 +9,8 @@ function infoSuperman() {
     document.getElementById('result').innerHTML = 
     `<div>Имя:${superman.name}</div>
      <div>Откуда: ${superman.from}</div>
-     <div>Сила: ${superman.power}</div>`
+     <div>Сила: ${superman.power}</div>
+     <img width="100" height="100" src="./assets/super.jfif">`
 
 }
 
