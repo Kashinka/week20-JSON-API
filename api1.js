@@ -3,7 +3,6 @@ fetch('https://api.github.com/users/Kashinka/repos')
 
             .then(data => {
 
-                console.log(data);
                 data.forEach(item => {
 
                     document.getElementById('result').innerHTML += `<div>${item.name}</div>`
@@ -11,5 +10,5 @@ fetch('https://api.github.com/users/Kashinka/repos')
                 });
 
             })
-            
+
     .catch(err => console.log(err));
